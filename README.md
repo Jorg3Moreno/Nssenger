@@ -6,7 +6,7 @@ Angular + Messenger = Nssenger :)
 
 No? :(
 
-##Features:
+## Features:
 
 **Frontend side (Angular):**
 * Login page
