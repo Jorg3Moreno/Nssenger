@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { ConversationComponent } from './conversation/conversation.component';
 import { ProfileComponent } from './profile/profile.component';
 import { AppRoutingModule } from './app-routing.module';
+import { MenuComponent } from './menu/menu.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { AppRoutingModule } from './app-routing.module';
     LoginComponent,
     HomeComponent,
     ConversationComponent,
-    ProfileComponent
+    ProfileComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
