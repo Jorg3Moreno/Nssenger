@@ -1,6 +1,29 @@
 # Nssenger
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.5.
+This is a Messenger clone developed using Angular 6 so:
+
+Angular + Messenger = Nssenger :)
+
+No? :(
+
+##Features:
+
+**Frontend side (Angular):**
+* Login page
+* Home / Dashboard page
+* Friends list
+* Search for friends
+* Add new friends
+* Chat with friends
+* Send messages, photos, zumbs
+* Show active friends
+* Profile page
+
+**Server side (Firebase)**
+* Manage data
+* Send bidirectional messages
+* Real time comunication
+* Sockets
 
 ## Development server
 
