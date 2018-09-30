@@ -1,3 +1,20 @@
-<p>
-  home works!
-</p>
+<h3>Friends:</h3>
+<ng-container *ngFor="let friend of friends; let i = index">
+  <!--<p *ngIf="friend.isfriend">-->
+    <!--{{i}}. {{friend.nick}} - {{friend.email}}-->
+  <!--</p>-->
+  <div>
+    <p>{{i}}. {{friend.nick}} - {{friend.email}}</p>
+  </div>
+</ng-container>
+
+
+<h3>Suggestions:</h3>
+<ng-container *ngFor="let sugg of suggestions; let i = index">
+  <!--<p *ngIf="!friend.isfriend">-->
+    <!--{{i}}. {{friend.nick}} - {{friend.email}}-->
+  <!--</p>-->
+  <div>
+    <p>{{i}}. {{sugg.nick}} - {{sugg.email}}</p>
+  </div>
+</ng-container>
