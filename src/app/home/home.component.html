@@ -4,7 +4,7 @@
     <!--{{i}}. {{friend.nick}} - {{friend.email}}-->
   <!--</p>-->
   <div>
-    <p>{{i}}. {{friend.nick}} - {{friend.email}}</p>
+    <a routerLink="/conversation/{{friend.uid}}">{{i}}. {{friend.nick}} - {{friend.email}}</a>
   </div>
 </ng-container>
 
@@ -15,6 +15,6 @@
     <!--{{i}}. {{friend.nick}} - {{friend.email}}-->
   <!--</p>-->
   <div>
-    <p>{{i}}. {{sugg.nick}} - {{sugg.email}}</p>
+    <a routerLink="/conversation/{{sugg.uid}}">{{i}}. {{sugg.nick}} - {{sugg.email}}</a>
   </div>
 </ng-container>
